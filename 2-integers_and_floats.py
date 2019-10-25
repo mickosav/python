@@ -8,7 +8,7 @@
 # Modulus:        3 % 2
 
 print(3 / 2) # in python 2 this will be 1
-print(3 // 2) # drops decimal points
+print(3 // 2) # drops decimal points (rounds down)
 num = 1
 num += 1
 num *= 10
