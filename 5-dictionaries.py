@@ -1,3 +1,4 @@
+# https://realpython.com/python-dicts/
 # In other laguages called hashmaps or associative arrays
 
 # Key must be of a type that is immutable
@@ -32,8 +33,7 @@ print(len(student))
 
 print(student.keys()) # just keys
 print(student.values()) # just values
-print(student.items()) # key value pairs
-
+print(student.items()) # list of key-value pairs
 # Looping
 for key, value in student.items():
   print(key, value)
