@@ -1,3 +1,5 @@
+# List comprehension
+# Basic syntax: [ expression for item in list if conditional ]
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # I want 'n' for each 'n' in nums
@@ -90,3 +92,11 @@ for i in my_gen:
 my_gen = (n*n for n in nums)
 for i in my_gen:
     print(i)
+
+# Random testing
+num_list = [n for n in range(100) if n % 2 == 0 and n % 5 == 0]
+print(num_list)
+
+height_in_cms = [('Tom',183),('Daisy',171),('Margaret',179),('Michael',190),('Nick',165)]
+height_in_feet = [(name, round(cm * 0.0328 , 1)) for name, cm in height_in_cms]
+print(height_in_feet)
