@@ -9,7 +9,7 @@ print(courses)
 
 courses_2 = ['Education', 'Painting']
 
-# extend mutates original list
+# extend takes only one argument (a list) and mutates original list
 courses.extend(courses_2)
 print(courses)
 
