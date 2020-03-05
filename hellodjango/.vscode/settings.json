@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/micko/miniconda2/envs/hellodjango/bin/python",
+    "python.autoComplete.extraPaths": [
+        "./hellodjango"
+    ],
+}
